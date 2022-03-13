@@ -1,0 +1,43 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .lesson {
+        width: 50%;
+      }
+    .visi {
+        text-align: center;
+    }
+
+    #last {
+      margin: -23rem 25%;
+      transform: scale(0.8);
+    }
+    
+    #last:hover {
+      
+      transform: scale(0.9);
+    }
+  
+      
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .lesson {
+      width: 100%;
+    }
+    .visi {
+        text-align: center;
+    }
+
+    #last {
+      margin: 0 0;
+    }
+
+    .tele-logo{
+      margin-left: 40%;
+    }
+
+    .tele-logo p{
+      display: none;
+    }
+  }
