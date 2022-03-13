@@ -29,6 +29,15 @@
         text-align: center;
     }
 
+    .header-right {
+      display: none;
+    }
+
+    .menu {
+      display: unset;
+      fill: rgb(247, 2, 2);
+    }
+
     #last {
       margin: 0 0;
       transform: scale(1);
