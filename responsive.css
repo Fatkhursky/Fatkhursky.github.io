@@ -3,6 +3,11 @@
     .lesson {
         width: 50%;
       }
+
+    .container-list-item {
+      font-size: larger;
+    }
+
     .visi {
         text-align: center;
     }
@@ -13,11 +18,16 @@
     }
     
     #last:hover {
-      
       transform: scale(0.9);
+    }  
+    
+    .tele-logo{
+      margin-left: 40%;
     }
-  
-      
+
+    .tele-logo p {
+      display: none;
+    }
   }
   
   /* Untuk Smartphone */
